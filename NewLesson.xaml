@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AC.NewLesson"
+             BackgroundColor="#23034a"
+             NavigationPage.HasBackButton="false">
+
+    <Grid Padding="20" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя часть страницы -->
+        <Grid Grid.Row="0" BackgroundColor="#511896" Padding="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ImageButton
+                Source="backbtnwhite.png"
+                Clicked="GoBack"
+                WidthRequest="30"
+                HeightRequest="30"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>
+            <Label
+                Grid.Column="1"
+                Text="Новый урок"
+                FontSize="18"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="white"/>
+            <ImageButton
+                Source="backbtnwhite.png"
+                Clicked="GoBack"
+                WidthRequest="30"
+                HeightRequest="30"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>
+        </Grid>
+
+        <!-- Форма для добавления нового урока -->
+        <StackLayout Grid.Row="1" Spacing="15" Padding="0, 30, 0, 0">
+
+            <Entry
+                x:Name="teacherEntry"
+                Placeholder="Преподаватель"
+                TextColor="#fff"
+                PlaceholderColor="#beafcb"
+                BackgroundColor="#380c6e"
+                FontSize="14"
+                HeightRequest="40"
+                Margin="0,0,0,20"
+                HorizontalOptions="FillAndExpand"/>
+
+            <TimePicker
+                x:Name="startTimePicker"
+                TextColor="#beafcb"
+                BackgroundColor="#380c6e"
+                HeightRequest="40"
+                HorizontalOptions="FillAndExpand"/>
+
+            <TimePicker
+                x:Name="endTimePicker"
+                TextColor="#beafcb"
+                BackgroundColor="#380c6e"
+                HeightRequest="40"
+                HorizontalOptions="FillAndExpand"/>
+
+            <Entry
+                x:Name="roomEntry"
+                Placeholder="Аудитория"
+                TextColor="#fff"
+                PlaceholderColor="#beafcb"
+                BackgroundColor="#380c6e"
+                FontSize="14"
+                HeightRequest="40"
+                Margin="0,0,0,20"
+                HorizontalOptions="FillAndExpand"/>
+
+            <Entry
+                x:Name="groupEntry"
+                Placeholder="Группа"
+                TextColor="#fff"
+                PlaceholderColor="#beafcb"
+                BackgroundColor="#380c6e"
+                FontSize="14"
+                HeightRequest="40"
+                Margin="0,0,0,20"
+                HorizontalOptions="FillAndExpand"/>
+
+            <Editor
+                x:Name="descriptionEntry"
+                Placeholder="Описание"
+                TextColor="#fff"
+                PlaceholderColor="#beafcb"
+                BackgroundColor="#380c6e"
+                HeightRequest="100"
+                FontSize="14"/>
+
+            <Button
+                Text="Сохранить"
+                Clicked="OnSaveClicked"
+                BackgroundColor="#380c6e"
+                TextColor="#beafcb"
+                FontSize="16"
+                CornerRadius="10"
+                HeightRequest="45"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

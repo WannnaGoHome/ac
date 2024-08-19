@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\study_projects\\AC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|c:\\users\\user\\desktop\\study_projects\\ac\\lessoninfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|solutionrelative:lessoninfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|c:\\users\\user\\desktop\\study_projects\\ac\\lessoninfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|solutionrelative:lessoninfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|c:\\users\\user\\desktop\\study_projects\\ac\\newlesson.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|solutionrelative:newlesson.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|c:\\users\\user\\desktop\\study_projects\\ac\\newlesson.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37EE702A-718A-4038-B99B-8AA738C2C8F8}|AC.csproj|solutionrelative:newlesson.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewLesson.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\study_projects\\AC\\NewLesson.xaml.cs",
+              "RelativeDocumentMoniker": "NewLesson.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\study_projects\\AC\\NewLesson.xaml.cs",
+              "RelativeToolTip": "NewLesson.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T14:02:41.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewLesson.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\study_projects\\AC\\NewLesson.xaml",
+              "RelativeDocumentMoniker": "NewLesson.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\study_projects\\AC\\NewLesson.xaml",
+              "RelativeToolTip": "NewLesson.xaml",
+              "ViewState": "AQIAABwAAAAAAAAAAAA4wCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-11T14:02:39.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LessonInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\study_projects\\AC\\LessonInfo.xaml.cs",
+              "RelativeDocumentMoniker": "LessonInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\study_projects\\AC\\LessonInfo.xaml.cs",
+              "RelativeToolTip": "LessonInfo.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAABCwCkAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:00:59.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LessonInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\study_projects\\AC\\LessonInfo.xaml",
+              "RelativeDocumentMoniker": "LessonInfo.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\study_projects\\AC\\LessonInfo.xaml",
+              "RelativeToolTip": "LessonInfo.xaml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAywBoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T16:04:53.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

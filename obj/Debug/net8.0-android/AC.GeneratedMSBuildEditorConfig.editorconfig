@@ -1,0 +1,119 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AC
+build_property.ProjectDir = C:\Users\User\Desktop\study_projects\AC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/User/Desktop/study_projects/AC/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/ChangeProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.ChangeProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = ChangeProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = ChangeProfile.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/Desktop.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.Desktop.xaml
+build_metadata.AdditionalFiles.TargetPath = Desktop.xaml
+build_metadata.AdditionalFiles.RelativePath = Desktop.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/LessonInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.LessonInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = LessonInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = LessonInfo.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/NewLesson.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.NewLesson.xaml
+build_metadata.AdditionalFiles.TargetPath = NewLesson.xaml
+build_metadata.AdditionalFiles.RelativePath = NewLesson.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Profile.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/RoomInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.RoomInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = RoomInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = RoomInfo.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/ScanWindow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.ScanWindow.xaml
+build_metadata.AdditionalFiles.TargetPath = ScanWindow.xaml
+build_metadata.AdditionalFiles.RelativePath = ScanWindow.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StartPage.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/StartQ1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.StartQ1.xaml
+build_metadata.AdditionalFiles.TargetPath = StartQ1.xaml
+build_metadata.AdditionalFiles.RelativePath = StartQ1.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/StartQ2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.StartQ2.xaml
+build_metadata.AdditionalFiles.TargetPath = StartQ2.xaml
+build_metadata.AdditionalFiles.RelativePath = StartQ2.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/StartQ3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.StartQ3.xaml
+build_metadata.AdditionalFiles.TargetPath = StartQ3.xaml
+build_metadata.AdditionalFiles.RelativePath = StartQ3.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/StartQ4.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.StartQ4.xaml
+build_metadata.AdditionalFiles.TargetPath = StartQ4.xaml
+build_metadata.AdditionalFiles.RelativePath = StartQ4.xaml
+
+[C:/Users/User/Desktop/study_projects/AC/Statistics.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AC.Statistics.xaml
+build_metadata.AdditionalFiles.TargetPath = Statistics.xaml
+build_metadata.AdditionalFiles.RelativePath = Statistics.xaml

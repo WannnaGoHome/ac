@@ -1,0 +1,14 @@
+[
+  {
+    "Role": "Преподаватель",
+    "LastName": "Фамилия",
+    "FirstName": "Имя",
+    "Patronymic": "Отчество",
+    "UIN": "123456789",
+    "Email": "ivan.ivanov@example.com",
+    "PhoneNumber": "+1234567890",
+    "IdCard": "profile_icon.png",
+    "Password": "1234"
+  }
+  // Другие пользователи
+]

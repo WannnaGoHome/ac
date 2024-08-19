@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="AC.Profile"
+             BackgroundColor="#23034a"
+             NavigationPage.HasBackButton="false">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto,Auto">
+        <!-- Верхняя часть страницы с фоном -->
+        <Grid Grid.Row="0">
+            <Image
+                Source="bg6.jpg"
+                Aspect="AspectFill"
+                HeightRequest="70"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+            <Label
+                Text="Attendance Control" 
+                FontSize="20"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="White"/>
+        </Grid>
+
+        <!-- Линия -->
+        <Image
+            Grid.Row="1"
+            Source="line.png"
+            WidthRequest="400"
+            HeightRequest="65"
+            Margin="0,-32,0,0"/>
+
+        <!-- Основной контент -->
+        <ScrollView Grid.Row="2" Padding="40" VerticalOptions="FillAndExpand">
+            <StackLayout Spacing="20">
+                <Label
+                    Text="Профиль" 
+                    FontSize="30"
+                    FontFamily="Gilroy"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"/>
+                <Image
+                    x:Name="profileImage"
+                    Source="profile_icon.png"
+                    HeightRequest="220"
+                    VerticalOptions="CenterAndExpand"/>
+                <VerticalStackLayout Spacing="20">
+                    <Label 
+                        x:Name="firstNameLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Фамилия: Иванов"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                    <Label 
+                        x:Name="lastNameLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Имя: Иван"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                    <Label 
+                        x:Name="patronymicLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Отчество: Иванович"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                    <Label 
+                        x:Name="emailLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Email: ivanov@gmail.com"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                    <Label 
+                        x:Name="phoneNumberLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Номер телефона: +77087477777"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                    <Label 
+                        x:Name="roleLabel" 
+                        HorizontalTextAlignment="Center" 
+                        Text="Должность: Преподаватель"/>
+                    <Image
+                        Grid.Row="0"
+                        Source="line.png"
+                        WidthRequest="400"
+                        HeightRequest="65"
+                        Margin="0,-32,0,-32"/>
+                </VerticalStackLayout>
+
+                <!-- Кнопки и подписи -->
+                <Grid ColumnDefinitions="*,*" Margin="0,20,0,0">
+                    <!-- Редактировать кнопка и подпись -->
+                    <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <ImageButton
+                            Source="editbtn.png"
+                            Clicked="OnEditProfileClicked"
+                            HeightRequest="40"
+                            WidthRequest="100"
+                            HorizontalOptions="Center"/>
+                        <Label
+                            Text="Редактировать"
+                            HorizontalOptions="Center"
+                            TextColor="#beafcb"
+                            FontSize="10"
+                            Padding="5"
+                            VerticalOptions="Start"/>
+                    </VerticalStackLayout>
+
+                    <!-- Выйти из аккаунта кнопка и подпись -->
+                    <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                        <ImageButton 
+                            Source="logoutbtn.png"
+                            HeightRequest="40"
+                            WidthRequest="100"
+                            Clicked="OnLogOutClicked"
+                            HorizontalOptions="Center"/>
+                        <Label
+                            Text="Выйти из аккаунта"
+                            TextColor="#beafcb"
+                            FontSize="10"
+                            Padding="5"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Start"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Нижняя часть страницы -->
+        <Grid Grid.Row="3">
+            <Image
+                Source="lll.png"
+                WidthRequest="430"
+                VerticalOptions="EndAndExpand"
+                Margin="0,0,0,0"/>
+        </Grid>
+        <Grid Grid.Row="4">
+            <HorizontalStackLayout Padding="10" Spacing="70" HorizontalOptions="CenterAndExpand">
+                <ImageButton Source="desktop_icon" HeightRequest="50" WidthRequest="50"  Clicked="OnDesktopClicked"/>
+                <ImageButton Source="statistics_icon" HeightRequest="60" WidthRequest="60" Clicked="OnStatisticsClicked" />
+                <ImageButton Source="profile_icon" HeightRequest="50" WidthRequest="50" Clicked="OnProfileClicked" />
+            </HorizontalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>
